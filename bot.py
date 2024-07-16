@@ -15,8 +15,8 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Rin Nanakura",
-            api_hash=API_HASH, '4e81464b29d79c58d0ad8a0c55ece4a5')
-            api_id=APP_ID, 20718334)
+            api_hash=API_HASH, '4e81464b29d79c58d0ad8a0c55ece4a5'
+            api_id=APP_ID, 20718334
             plugins={
                 "root": "plugins"
             },
